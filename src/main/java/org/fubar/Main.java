@@ -8,6 +8,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// ClassroomDataGroups - этот класс используется для группировки данных об учениках по классам.
+// Он позволяет хранить списки учеников для каждого класса и используется
+// для вычисления средней оценки в каждом классе.
+//
+// PersonAgeDataGroups - этот класс используется для группировки данных об учениках по возрасту.
+// Он позволяет хранить списки учеников для каждого возраста и используется
+// для поиска отличников старше 14 лет.
+//
+// PersonNameDataGroup - этот класс используется для группировки данных об учениках по первой букве фамилии.
+// Он позволяет хранить списки учеников для каждой первой буквы фамилии и используется для поиска учеников по фамилии.
+
 public class Main {
     public static void main(String[] args) throws IOException {
         ClassroomDataGroups classroomDataGroups = new ClassroomDataGroups();
