@@ -1,7 +1,5 @@
 package org.fubar;
 
-import java.util.*;
-
 class ClassroomDataGroups {
     private final MyMap<String, MyList<Person>> dataGroups;
 
